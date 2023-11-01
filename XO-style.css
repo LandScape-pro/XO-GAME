@@ -1,0 +1,58 @@
+.game{
+  text-align: center;
+  color: #FFF;
+  font-weight: 500;
+  margin: auto;
+  width: 340px;
+
+
+}
+.title{
+ background-color: #f25;
+ font-size: 25px;
+ padding: 5px 0;
+ margin: 5px 0;
+ width: 316px;
+}
+.title span{
+  color: #fa0;
+}
+.square{
+  width: 80px;
+  height: 80px;
+  background-color: #f25;
+  margin: 3px ; 
+  float: left;
+  padding: 10px;
+  font-size: 50px;
+  text-align: center;
+
+  
+}
+.square:hover{
+  background-color: #000;
+  cursor: pointer;
+}
+.control{
+  position: relative;
+  margin-top: 340px;
+  margin-left:-60px;
+
+    text-align: center;
+    padding: 10px;
+}
+.control button{
+  position: absolute;
+  background-color: #f25;
+  padding: 10px;
+  font-weight: 600;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.playerx{
+  color:darkgray;
+}
+.playero{
+  color: blue;
+}
